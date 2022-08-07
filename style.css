@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #111;
+}
+
+header {
+  margin-right: 3em;
+}
+/* header-1 */
+.header-1,
+.list,
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-1 {
+  padding: 1em 2em;
+}
+.header-1 div:first-child {
+  width: 8%;
+}
+.logo {
+  width: 100%;
+}
+
+li {
+  font-size: x-small;
+  font-weight: 500;
+  list-style: none;
+  margin: 0 2em;
+}
+
+.list-item img {
+  width: 9px;
+  vertical-align: bottom;
+  margin-left: 2px;
+}
+
+/* header-2 */
+.header-2 {
+  justify-content: space-evenly;
+}
+
+.header-2 div:first-child {
+  width: 45%;
+}
+
+.image {
+  width: 100%;
+}
+
+.name {
+  color: #ff3343;
+}
+.name + h1 {
+  font-size: 3em;
+  padding: 5px 0;
+}
+.text {
+  font-weight: 300;
+}
+.about-me {
+  border-radius: 3px;
+  background-color: #c91b28;
+  margin-top: 1.4em;
+  padding: 1em 2em;
+}
+
+/* section */
+
+.section-1 {
+  background: linear-gradient(90deg, #181818 50%, #111 50%);
+  padding-right: 3em;
+}
+
+.section-11 {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  padding: 4em 0;
+}
+.card {
+  width: 25%;
+  margin: 0 1em;
+}
+.section-11 .card:nth-child(1),
+.section-11 .card:nth-child(3) {
+  background-color: #1e1e1e;
+  padding: 1.6em 2em;
+}
+
+.section-11 .card:first-child + .card {
+  background-color: #c91b28;
+  padding: 1.5em 2em;
+}
+
+.section-11 .card:first-child + .card .icon {
+  width: 18%;
+}
+
+.card .icon {
+  width: 20%;
+}
+
+.card h2 {
+  padding: 10px 0;
+}
+
+.card p {
+  font-size: 300;
+}
+.know-more {
+  padding: 1.4em 0;
+  color: #ff3343;
+}
+.know-more img{
+  width: 9px;
+}
+.section-11 div:nth-child(2) .know-more {
+  color: #fff;
+}
+
+.section-11 .card:nth-child(4) {
+  text-align: center;
+}
+.section-11 .card:nth-child(4) h3 {
+  font-size: 5em;
+  color: #ef4040;
+}
+.statistics-card {
+  background: #1e1e1e;
+  text-align: center;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+.statistics-card h3 {
+  font-size: 2.2em;
+  color: #ef4040;
+}
+.statistics-card p {
+  font-size: small;
+  padding: 10px 0;
+}
+
+/* section-2 */
+
+.section-2 {
+  padding: 2em 10em;
+}
+
+.featured,
+.featured-project {
+  display: flex;
+  justify-content: space-between;
+}
+.featured{
+  align-items: center;
+}
+.featured-project{
+  padding: 0 1em;
+}
+.featured p {
+  font-size: small;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.featured button {
+  border: none;
+  background-color: #ff3343;
+  padding: 1em 2em ;
+}
+
+/* featured-project */
+
+.featured-project {
+  margin: 1.5em 0;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 45%;
+  margin: 1em 0;
+}
+
+.project-card div:first-child {
+  background-color: #1e1e1e;
+  padding: 4em 1em;
+}
+
+.project-card div img {
+  width: 100%;
+}
+
+.project-card div h3{
+  padding: 10px 0;
+}
+
+.project-card div h5{
+  color: #ef4040;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.project-card div h5 img{
+  width: 8px;
+}
+
+.featured-project .project-card:nth-child(3) img{
+  height:auto;
+}
+
+/* section-3 */
+
+.section-3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e1e1e;
+  margin: 0 10em;
+  padding:2em;
+}
+
+.section-3 h1{
+  font-size: 2.2em;
+}
+.section-3 p{
+  color: #d5d5d5;
+  font-size: small;
+  font-weight: 300;
+  padding: 10px 0;
+}
+.section-3 button{
+  border: none;
+  background-color: #ef4040;
+  padding: .8em 2.2em;
+}
+
+/* footer */
+
+footer{
+  margin-top: 3em;
+}
+
+footer nav{
+  padding:0 10em;
+}
+footer .list{
+  justify-content: center;
+}
+
+footer > div{
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+  padding: 2em 10em;
+}
+
+footer .logo{
+  width: 60%;
+}
+.social-media{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+.social-media-icons{
+  width: 4%;
+  margin: 0 1em;
+}
