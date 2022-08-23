@@ -1,0 +1,100 @@
+
+@media screen and (max-width:992px) {
+    .name + h1{
+        font-size: 2.6em;
+    }
+    .card{
+        width: 40%;
+        margin: 1em ;
+    }
+    .section-12 .card:first-child{
+        width: 90%;
+    }
+    .section-2{
+        padding: 30px 100px;
+    }
+    .project-card{
+        width: 47%;
+    }
+    .project-card div h3{
+        font-size: 16px;
+    }
+    .section-3{
+        margin: 0 5em;
+    }
+    .section-3 h1{
+        font-size: 1.8em;
+    }
+    footer .logo{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .name + h1{
+        font-size: 2.2em;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .text + button{
+        padding: .5em 1em;
+    }
+    nav .list{
+    display: none;
+    }
+    header nav::after{
+        content: '☰';
+        font-weight: 700;
+    }
+    .section-11 .card{
+        padding: 1.2em !important;
+    }
+    header,.section-3{
+        margin: 0;
+    }
+    .section-3 >div{
+        margin-right: 1.5em;
+    }
+    .section-1, .section-2{
+        padding:10px;
+    }
+    footer > div{
+        padding: 30px 60px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-1 div:first-child{
+        width: 15%;
+    }
+    .header-2,.section-11, .section-12,.section-3,.featured{
+        flex-direction: column !important;
+        padding: 1em !important;
+    }
+    .header-2 div:last-child{
+        text-align: center;
+        margin:1em 0;
+    }
+    .section-3 > div{
+        margin-right: 0;
+        text-align: center;
+    }
+    .section-3 button{
+        margin-top: 1em;
+    }
+    .card ,.project-card{
+        width: 95%;
+    }
+    .card .icon{
+        width: 10% !important;
+    }
+    .featured-project{
+        justify-content: center;
+    }
+     footer > div{
+        padding: 30px;
+    }
+    .social-media-icons{
+        width: 6%;
+    }
+}
